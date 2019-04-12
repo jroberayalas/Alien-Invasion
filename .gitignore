@@ -1,0 +1,3 @@
+# Don't track content from these folders
+.vscode/
+__pycache__/
