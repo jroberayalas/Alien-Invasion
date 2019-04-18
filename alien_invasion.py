@@ -31,7 +31,7 @@ def run_game():
     # Start the main loop for the game
     while True:
         # Check events.
-        gf.check_events(ai_settings, screen, stats, play_button, ship, bullets)
+        gf.check_events(ai_settings, screen, stats, play_button, ship, aliens, bullets)
         if stats.game_active:
             # Update ship.
             ship.update()
